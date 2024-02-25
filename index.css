@@ -1,12 +1,45 @@
-body {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
 }
 
-h1{
+h1 {
     color: goldenrod;
-    
 }
 
-#message-el{
-
+#message-el {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #333;
 }
+
+#game-area {
+    border: 2px solid #333;
+    display: inline-block;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkgoldenrod;
+}
+
+/* Styling for dealer and player card elements */
+#dealer-cards-el, #player-cards-el, #dealer-sum-el, #player-sum-el {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
